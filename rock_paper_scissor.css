@@ -38,13 +38,13 @@
     cursor:grab;
     border:5px solid black;
 }
-#scissor{
+#scissors{
     background-color: skyblue;
     height:80%;
     width:80%;
     border-radius: 50%;
 }
-#scissor:hover{
+#scissors:hover{
     opacity:0.5;
     cursor:grab;
     border:5px solid black;
