@@ -1,6 +1,6 @@
 let rock=document.querySelector("#rock");
 let paper=document.querySelector("#paper");
-let scissors=document.querySelector("#scissor");
+let scissors=document.querySelector("#scissors");
 let numberC=document.querySelector("#numberC");
 let numberY=document.querySelector("#numberY");
 let display=document.querySelector("#display");
@@ -41,7 +41,9 @@ const playgame = (userchoice)=>{
     if(userchoice === compChoice){
         draw(userchoice,compChoice);
     }
-    else if((userchoice=="rock" && compChoice=="scissor") || (userchoice=="paper" && compChoice=="rock") || (userchoice=="scissor" && compChoice=="paper")){
+    else if((userchoice === "rock" && compChoice === "scissors") || 
+    (userchoice === "paper" && compChoice === "rock") || 
+    (userchoice === "scissors" && compChoice === "paper")){
         userWon(userchoice,compChoice);
     }
     else{
